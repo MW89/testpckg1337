@@ -1,0 +1,39 @@
+---
+title: "testpckg1337 - Vignette"
+author: "MW"
+date: "November 10, 2017"
+output: html_document
+vignette: >
+  %\VignetteIndexEntry{Model Details for example_package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Saying hello to the world
+
+One of the most widely known functions: hello(). This functions has no arguments. It's use is self-explanatory, see below.
+
+```{r, echo=TRUE}
+library(testpckg1337)
+hello()
+```
+
+## Saying hello to anybody you want
+
+Now the above funtion is great, but a little variety will certainly not hurt. The hello.name() function takes one argument *name* (character) and returns a string which may be used to greet anybody.
+
+```{r, echo=TRUE}
+hello.name("Ann")
+x <- hello.name("Christian")
+x
+```
+
+If the argument *name* is not a string, an error is thrown, see below.
+
+```{r, echo=TRUE, error=TRUE}
+hello.name(1337)
+```
