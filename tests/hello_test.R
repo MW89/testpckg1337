@@ -1,2 +1,2 @@
 library(testthat)
-expect_that(hello(), equals("Hello, world!"))
+expect_equal(hello(), "Hello, world!")
