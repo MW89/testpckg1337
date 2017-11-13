@@ -1,16 +1,11 @@
 Package: testpckg1337
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Create and print "Hello, ...!" strings.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: MW
+Maintainer: MW <yourself@somewhere.net>
+Description: Say hello to the world and to specific persons.
+License: CC0
 Encoding: UTF-8
-<<<<<<< HEAD
 LazyData: true
 RoxygenNote: 6.0.1
-=======
-LazyData: true
->>>>>>> 847a081c6748c21638fdee7461c7bbf7f3a43a38
